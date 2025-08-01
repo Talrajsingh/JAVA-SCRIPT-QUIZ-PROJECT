@@ -15,39 +15,39 @@ const progressBar = document.getElementById("progress");
 
 const quizQuestions = [
   {
-    question: "What is the Palak's fav color?",
+    question: "What is the capital of India?",
     answers: [
-      { text: "Red", correct: false },
-      { text: "Black", correct: true },
-      { text: "pink", correct: false },
-      { text: "yellow", correct: false },
+      { text: "Mumbai", correct: false },
+      { text: "Kolkata", correct: false },
+      { text: "New Delhi", correct: true },
+      { text: "Chennai", correct: false },
     ],
   },
   {
-    question: "Where do Palak live's?",
+    question: "Who was the first Prime Minister of independent India?",
     answers: [
-      { text: "Maharastra", correct: true },
-      { text: "Indore", correct: false },
-      { text: "Gujurat", correct: false },
-      { text: "Delhi", correct: false },
+      { text: "Mahatma Gandhi", correct: false },
+      { text: "Subhas Chandra Bose", correct: false },
+      { text: "Sardar Patel", correct: false },
+      { text: "Jawaharlal Nehru", correct: true },
     ],
   },
   {
-    question: "What makes Palak more beautiful?",
+    question: "Which is the longest river in India?",
     answers: [
-      { text: "Face", correct: false },
-      { text: "EYE", correct: false },
-      { text: "Smile", correct: true },
-      { text: "Tooth", correct: false },
+      { text: "Ganga", correct: true },
+      { text: "Brahmaputra", correct: false },
+      { text: "Yamuna", correct: false },
+      { text: "Godavari", correct: false },
     ],
   },
   {
-    question: "WWhat is the age of Palak?",
+    question: "What is the national animal of India?",
     answers: [
-      { text: "18", correct: false },
-      { text: "21", correct: true },
-      { text: "16", correct: false },
-      { text: "19", correct: false },
+      { text: "Lion", correct: false },
+      { text: "Tiger", correct: true },
+      { text: "Elephant", correct: false },
+      { text: "Leopard", correct: false },
     ],
   },
 ];
